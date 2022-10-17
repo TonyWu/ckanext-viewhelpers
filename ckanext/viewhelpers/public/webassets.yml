@@ -1,0 +1,13 @@
+viewhelpers_js:
+  extra:
+    preload: 
+     - base/main
+  contents:
+    - vendor/queryStringToJSON.js
+    - filters.js
+    - filters_form.js
+
+viewhelpers_css:
+  filters: cssrewrite
+  contents:
+    - filters_form.css
