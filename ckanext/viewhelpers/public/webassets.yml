@@ -2,14 +2,13 @@ viewhelpers_js:
   extra:
     preload: 
      - base/main
-  output: ckanext-viewhelpers/%(version)s_viewhelpers.js
+  output: viewhelpers/%(version)s_viewhelpers.js
   contents:
     - vendor/queryStringToJSON.js
     - filters.js
     - filters_form.js
 
 viewhelpers_css:
-  output: ckanext-viewhelpers/%(version)s_viewhelpers.css
-  filters: cssrewrite
+  output: viewhelpers/%(version)s_viewhelpers.css
   contents:
     - filters_form.css
